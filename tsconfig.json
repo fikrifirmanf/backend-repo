@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "target": "es6", // or higher
+      "module": "commonjs", // or your preferred module system
+      "outDir": "dist", // Output directory for compiled JavaScript
+      "rootDir": "./",
+      "strict": true, // Enforce type checking
+      "esModuleInterop": true, // Helps with CommonJS/ES module interoperability
+      "resolveJsonModule": true
+    }
+  }
